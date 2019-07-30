@@ -1,0 +1,39 @@
+html{
+	height: 100%;
+}
+
+body{
+	background: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+	background-size: cover;
+	background-position: center;
+	font-family: Roboto Mono;
+	color: white;
+}
+
+.content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.info{
+	background-color:rgba(57, 59, 59, 0.9);
+	border-radius: 20px;
+	padding: 20px;
+
+}
+
+h1{
+	font-weight: 700;
+	font-size: 4em;
+}
+
+a {
+ color: inherit;
+} 
+
+ a:hover {
+ color: inherit;
+} 
