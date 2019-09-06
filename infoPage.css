@@ -48,6 +48,9 @@ button:hover{
  transform: scale(1.1);
  transition-timing-function: ease-in-out;
  transition-duration: .5s;
+ -webkit-transform: scale(1.1);
+ -webkit-transition-duration: .5s;
+ -webkit-transition-timing-function: ease-in-out;
 }
 
 @keyframes mymove{
