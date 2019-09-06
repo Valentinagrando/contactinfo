@@ -16,7 +16,7 @@ body{
 	             0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
 	animation-name: mymove;
-	animation-duration: 3s;
+	animation-duration: 1.3s;
 	animation-delay: 0s;
 	animation-iteration-count: 1;
 	padding-top: 25%;
@@ -37,11 +37,20 @@ h1{
 
 a {
  color: inherit;
+ /* animation: scaling 1.5s alternate infinite ease-in; */
+
 } 
 
  a:hover {
  color: inherit;
 } 
+
+button:hover{
+ animation-name: scaling;
+ transform: scale(1.1);
+ transition-timing-function: ease-in-out;
+ transition-duration: .5s;
+}
 
 @keyframes mymove{
 from {padding-top:0px;
