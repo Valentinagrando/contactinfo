@@ -35,6 +35,11 @@ h1{
 	overflow: auto;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 a {
  color: inherit;
 } 
